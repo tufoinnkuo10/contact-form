@@ -325,3 +325,26 @@ li {
 .skills {
   list-style: inside url("../media/svg/circle.svg");
 }
+
+@media screen and (max-width: 700px) {
+  .formtext {
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    color: #172b4d;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 30px;
+    padding: 1.5rem;
+  }
+  .firsttext {
+  }
+  .forml .namepart{
+    background-color: #fcfcfc;
+  }
+  .btnn {
+    background: #FF6B00;
+    color: white;
+    padding: 12px;
+  }
+}
