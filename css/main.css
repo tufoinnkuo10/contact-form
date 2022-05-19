@@ -337,17 +337,36 @@ li {
     line-height: 30px;
     padding: 1.5rem;
   }
+
   /* .firsttext {
   } */
   .forml .namepart {
     background-color: #fcfcfc;
-    padding: 0px;
   }
+
   .btnn {
     background: #ff6b00;
     color: white;
     padding: 12px;
     margin-left: 5rem;
+  }
+
+  .bttn span::after {
+    content: "\00bb";
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+
+  .bttn:hover span {
+    padding-right: 25px;
+  }
+
+  .bttn:hover span::after {
+    opacity: 1;
+    right: 0;
   }
 
   .textside {
