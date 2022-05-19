@@ -337,14 +337,29 @@ li {
     line-height: 30px;
     padding: 1.5rem;
   }
-  .firsttext {
-  }
-  .forml .namepart{
+  /* .firsttext {
+  } */
+  .forml .namepart {
     background-color: #fcfcfc;
+    padding: 0px;
   }
   .btnn {
-    background: #FF6B00;
+    background: #ff6b00;
     color: white;
     padding: 12px;
+    margin-left: 5rem;
+  }
+
+  .textside {
+    border: 1px solid red;
+    width: 12rem;
+    height: 4rem;
+  }
+
+  .down-icons .iconz {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
   }
 }
