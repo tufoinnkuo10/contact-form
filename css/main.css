@@ -375,6 +375,10 @@ li {
     height: 4rem;
   }
 
+  .iconz {
+    color: #212121;
+  }
+
   .down-icons .iconz {
     display: flex;
     flex-direction: row;
@@ -384,10 +388,6 @@ li {
   }
 
   .iii {
-    color: #212121;
-  }
-
-  .iconz {
     color: #212121;
   }
 }
