@@ -348,7 +348,7 @@ li {
     background: #ff6b00;
     color: white;
     padding: 12px;
-    margin-left: 5rem;
+    margin-left: 8rem;
   }
 
   .bttn span::after {
@@ -380,5 +380,14 @@ li {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    color: #3c3a39;
+  }
+
+  .iii {
+    color: #212121;
+  }
+
+  .iconz {
+    color: #212121;
   }
 }
